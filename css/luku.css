@@ -1,0 +1,14 @@
+h2{
+    color: chocolate;
+}
+th,td{
+    border: 2px solid gray;
+    padding: 10px;
+}
+th{
+    color: rgb(64, 184, 144);
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h2>Personal details</h2>
+    <form action="" method="get">
+        <label for="first_name">First Name:</label>
+        <input type="text" placeholder="Enter your first name" required>
+        <br><br>
+        <label for="last_name">Last Name:</label>
+        <input type="text" placeholder="Enter your last name" required>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+        <br><br>
+        <input type="button" value="Submit">
+    </form>
+    <h2>Other information</h2>
+    <form action="">
+        <!--radio button for gender-->
+        <label for="female">Female</label>
+        <input type="radio" name="gender">
+        <label for="male">Male</label>
+        <input type="radio" name="gender">
+        <br><br>
+        <!-- label for date of birth(DOB) -->
+        <label for="DOB">Date of birth</label>
+        <input type="date" name="DOB" id="DOB">
+        <!-- <br> element to break the next content 
+         to start on the new line -->
+        <br><br>
+        <label for="passport">Passport Photo</label>
+        <input type="file" name="passport">
+        <br><br>
+        <label for="bedroom">Select bedroom</label>
+        <select name="bedroom" id="bedroom">
+            <option value="one_bedroom">one bedroom</option>
+            <option value="two_bedroom">Two bedroom</option>
+            <option value="three_bedroom">Three bedroom</option>
+            <option value="four_bedroom">Four bedroom</option>
+
+        </select>
+        <br><br>
+        <input type="button" value="Submit">
+    </form>
+</body>
+</html>

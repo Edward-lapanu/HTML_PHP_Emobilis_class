@@ -1,0 +1,22 @@
+.red{
+    color: rgb(255, 0, 0);
+    background-color: aqua;
+}
+.green{
+    color: rgb(0, 128, 0);
+    background-color: yellow;
+}
+#watermelon{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: purple;
+}
+.main_div{
+    background-color: brown;
+    border: 20px;
+    border-radius: 10px;
+    border-width: 10px;
+    border-color: rgb(19, 12, 12);
+}
+.sub_div{
+    background-color: hotpink;
+}
